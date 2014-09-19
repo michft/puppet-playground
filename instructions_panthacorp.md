@@ -1,10 +1,17 @@
 Instructions
 ------------
 
-Using puppet playground, have forked and modified. Has modules set up, end users will need to add VM's as appropriate.
+Using puppet playground, have forked and modified. This repository has modules set up, please don’t use play syntax.
 
   $ git clone https://github.com/example42/puppet-playground.git puppet-playground
 
+You can list available VM’s with 
+
+  $ vagrant status
+
+You can run-up a vm with
+
+  $ vagrant up --provision <MACHINE_LABEL>
 
 
 Optional Info
