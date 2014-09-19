@@ -1,3 +1,15 @@
+Instructions
+------------
+
+Using puppet playground, have forked and modified. Has modules set up, end users will need to add VM's as appropriate.
+
+  $ git clone https://github.com/example42/puppet-playground.git puppet-playground
+
+
+
+Optional Info
+-------------
+
 Base System
 -----------
 

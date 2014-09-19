@@ -31,18 +31,16 @@
 # }
 #
 class mule(
-# need to change to remote TODO
-  $mule_mirror = 'http://192.168.0.16:8000',
-#  $mule_version = '3.5.1',
+  $mule_mirror = 'http://s3.amazonaws.com/MuleEE',
+  $mule_version = '3.5.1',
   $mule_install_dir = '/opt',
   $java_home = '/usr/lib/jvm/default-java',
   $user = 'root',
   $group = 'root') {
 
   $basedir = "${mule_install_dir}/mule"
-#  $dist = "mule-standalone-${mule_version}"
-  $dist = 'AnypointStudio-for-linux-64bit-JUL14-201407180556'
-  $dist_install_dir = 'AnypointStudio'
+  $dist = "mmc-distribution-mule-console-bundle-${mule_version}"
+  $dist_install_dir = 'mule-console-bundle'
   $archive = "${dist}.tar.gz"
 
   archive { $dist:
