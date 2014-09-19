@@ -49,10 +49,4 @@ Vagrantfile Changes
 
 Had to change some of the boxes to vagrantcloud because of timeouts in downloads.
 
-Vagrant new boxes
------------------
-
-http://wiki.collectionspace.org/display/DOC/Using+VirtualBox+and+Vagrant+to+manage+disk+images
-
-  $ vagrant plugin install vagrant-vbox-snapshot
-
+Michael Tomkins 20140919

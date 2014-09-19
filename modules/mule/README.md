@@ -1,6 +1,4 @@
-# puppet-mule #
-
-[![Build Status](https://travis-ci.org/ryandcarter/puppet-mule.svg?branch=master)](https://travis-ci.org/ryandcarter/puppet-mule.svg?branch=master)
+# Reused module from the puppet forge. Original here https://forge.puppetlabs.com/ryandcarter/mule
 
 A Puppet module to install and manage the Mule ESB community runtime.
 ## Usage ##
