@@ -5,13 +5,9 @@ Vagrant.configure("2") do |config|
 #      :box     => 'centos65_64',
 #      :box_url => 'http://puppet-vagrant-boxes.puppetlabs.com/centos-65-x64-virtualbox-puppet.box',
 #    },
-#    :Centos65_64_puppetlabs => {
-#      :box     => 'puppetlabs/centos-6.5-64-puppet',
-#      :box_url => 'https://vagrantcloud.com/puppetlabs/boxes/centos-6.5-64-puppet',
-#    },
-    :Centos65_gui => {
-      :box     => 'centos-6.5-gui.box',
-#      :box_url => '',
+    :Centos65_64_puppetlabs => {
+      :box     => 'puppetlabs/centos-6.5-64-puppet',
+      :box_url => 'https://vagrantcloud.com/puppetlabs/boxes/centos-6.5-64-puppet',
     },
 #    :Centos64_64 => {
 #      :box     => 'centos64_64',
@@ -33,14 +29,10 @@ Vagrant.configure("2") do |config|
 #      :box     => 'centos-5.8-64bit',
 #      :box_url => 'http://packages.vstone.eu/vagrant-boxes/centos-5.8-64bit-latest.box',
 #    },
-    :Ubuntu1404_gui => {
-      :box     => 'ubuntu14-4-gui.box'
-#      :box_url => 'https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box',
+    :Ubuntu1404_64 => {
+      :box     => 'trusty-server-cloudimg-amd64-vagrant-disk1.box',
+      :box_url => 'https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box',
     },
-#    :Ubuntu1404_64 => {
-#      :box     => 'trusty-server-cloudimg-amd64-vagrant-disk1.box',
-#      :box_url => 'https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box',
-#    },
 #    :Ubuntu1304_64 => {
 #      :box     => 'raring64',
 #      :box_url => 'http://cloud-images.ubuntu.com/vagrant/raring/current/raring-server-cloudimg-amd64-vagrant-disk1.box',
@@ -49,14 +41,10 @@ Vagrant.configure("2") do |config|
 #      :box     => 'quantal64',
 #      :box_url => 'http://cloud-images.ubuntu.com/vagrant/quantal/current/quantal-server-cloudimg-amd64-vagrant-disk1.box',
 #    },
-    :Ubuntu1204_gui => {
-      :box     => 'ubuntu1204-gui.box',
-#      :box_url => 'https://vagrantcloud.com/puphpet/boxes/ubuntu1204-x64',
+    :Ubuntu1204_puphpet => {
+      :box     => 'puphpet/ubuntu1204-x64',
+      :box_url => 'https://vagrantcloud.com/puphpet/boxes/ubuntu1204-x64',
     },
-#    :Ubuntu1204_puphpet => {
-#      :box     => 'puphpet/ubuntu1204-x64',
-#      :box_url => 'https://vagrantcloud.com/puphpet/boxes/ubuntu1204-x64',
-#    },
 #    :Ubuntu1204 => {
 #      :box     => 'ubuntu-server-12042-x64-vbox4210',
 #      :box_url => 'http://puppet-vagrant-boxes.puppetlabs.com/ubuntu-server-12042-x64-vbox4210.box',
@@ -65,14 +53,10 @@ Vagrant.configure("2") do |config|
 #      :box     => 'ubuntu-server-12042-x64-vbox4210',
 #      :box_url => 'http://puppet-vagrant-boxes.puppetlabs.com/ubuntu-server-12042-x64-vbox4210.box',
 #    },
-    :Debian7_gui => {
-      :box     => 'debian7-gui.box'
-#      :box_url => 'https://vagrantcloud.com/puphpet/boxes/debian75-x64',
+    :DebianPuphpet7 => {
+      :box     => 'puphpet-VAGRANTSLASH-debian75-x64',
+      :box_url => 'https://vagrantcloud.com/puphpet/boxes/debian75-x64',
     },
-#    :DebianPuphpet7 => {
-#      :box     => 'puphpet-VAGRANTSLASH-debian75-x64',
-#      :box_url => 'https://vagrantcloud.com/puphpet/boxes/debian75-x64',
-#    },
 #    :Debian7 => {
 #      :box     => 'debian-70rc1-x64-vbox4210',
 #      :box_url => 'http://puppet-vagrant-boxes.puppetlabs.com/debian-70rc1-x64-vbox4210.box',
