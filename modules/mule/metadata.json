@@ -1,0 +1,23 @@
+{
+  "name": "ryandcarter-mule",
+  "version": "0.1.0",
+  "author": "ryandcarter",
+  "summary": "Mule ESB Puppet Module",
+  "license": "Apache Version 2.0",
+  "source": "git://github.com/ryandcarter/puppet-mule",
+  "project_page": "https://github.com/ryandcarter/puppet-mule",
+  "issues_url": "https://github.com/ryandcarter/puppet-mule/issues",
+  "description": "Mule ESB Puppet Module",
+  "dependencies": [
+    {
+      "name": "puppetlabs/java",
+      "version_requirement": ">=0.1.0"
+    },
+    {
+      "name": "gini/archive",
+      "version_requirement": ">= 0.2.0"
+    },
+    {"name":"gini/archive","version_requirement":">= 0.2.0"},
+    {"name":"puppetlabs/java","version_requirement":">= 0.1.0"}
+  ]
+}
